@@ -1,0 +1,132 @@
+* {
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: "recursive";
+    src: url(./fonts/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
+}
+
+:root {
+    --branco: #ffff;
+    --preto: #0000;
+    --verde-pixelv: #00c621;
+    --roxo-pixelv: #4700cf;
+    --fundo-site: #f3f2f2;
+    --contato: #e5e5e5;
+
+
+
+}
+
+
+
+
+.container-grid {
+
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.banner {
+    background-image: url(img/Banner.png);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: 0 -10px;
+
+}
+
+
+header {
+    height: 165px;
+
+}
+
+
+
+header .container-grid {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+header img {
+    width: 234px;
+
+}
+
+.menu {
+
+    max-width: 400px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.menu a {
+    font-size: 20px;
+    color: white;
+    font-family: "recursive";
+
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+    transition: text-decoration 500ms ease;
+
+}
+
+.menu a:hover {
+    text-decoration-color: var(--verde-pixelv)
+}
+
+.conteudo-banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.conteudo-banner img {
+    max-width: 380px;
+    width: 50%;
+
+}
+
+.conteudo-banner p {
+    font-size: 26px;
+    font-family: "recursive", sans-linear;
+    color: var(--branco);
+    width: 350px;
+    margin-bottom: 100px;
+}
+
+.conteudo-banner ul {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "recursive", sans-linear-bold;
+    color: var(--verde-pixelv);
+    list-style-type: none;
+    padding: 0;
+}
